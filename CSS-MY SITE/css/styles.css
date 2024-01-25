@@ -1,41 +1,39 @@
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 h1 {
   margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
+  font-family: "Sacramento", cursive;
   font-size: 5.625rem;
-  color: #66BFBF;
+  color: #66bfbf;
 }
 
 h2 {
-  color: #66BFBF;
-  font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
 }
 
 h3 {
-  color:  #11999E;
-  font-family: 'Montserrat', sans-serif;
-
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
 }
 
-.skill-row{
+.skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
 }
 .top-container {
-  background-color: #E4F9F5;
+  background-color: #e4f9f5;
   position: relative;
   padding: 100px;
 }
-
 
 .pro {
   text-decoration: underline;
@@ -52,7 +50,7 @@ h3 {
   top: 50px;
 }
 
-.giphy{
+.giphy {
   border-radius: 50%;
   height: 200px;
   width: 200px;
@@ -60,13 +58,13 @@ h3 {
   margin-right: 30px;
   line-height: 2;
 }
-.hippo{
+.hippo {
   width: 25%;
   float: right;
   margin-left: 30px;
 }
 
-hr{
+hr {
   background-color: white;
   border-style: none;
   border-top-style: dotted;
@@ -74,24 +72,23 @@ hr{
   border-width: 5px;
   width: 5%;
 }
-.m-c-text{
-  color: #40514E;
+.m-c-text {
+  color: #40514e;
 }
-.bottom-container{
-
-  background: #66BFBF;
-  color:  white;
+.bottom-container {
+  background: #66bfbf;
+  color: white;
   margin-top: 80px;
   padding: 20px;
 }
 
 .btn {
-  background:  #11cdd4;
-  background-image: -webkit-linear-gradient(top,  #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top,  #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top,  #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top,  #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom,  #11cdd4, #11999e);
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 8px;
@@ -103,19 +100,76 @@ hr{
 }
 
 .btn:hover {
-  background:  #30e3cb;
-  background-image: -webkit-linear-gradient(top,  #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top,  #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top,  #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top,  #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom,  #30e3cb, #2bc4ad);
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
 
 a:visited {
-    color: #11999E;
+  color: #11999e;
 }
 
-.footer-link{
+.footer-link {
   margin-right: 50px;
+}
+
+.contact {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.input {
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 3px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #11999e;
+  height: 30px;
+  font-size: medium;
+}
+
+.input-email {
+  display: flex;
+  width: 94%;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+}
+
+.input-area-cont {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+}
+
+.input-area {
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #11999e;
+  height: 100px;
+  width: 91%;
+  font-size: large;
+  resize: none;
 }
